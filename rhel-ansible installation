@@ -3,3 +3,10 @@ yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.r
 yum install python2
 pip2 install ansible
 ansible --version
+cd /etc
+mkdir ansible
+cd ansible
+mkdir roles
+touch ansible.cfg hosts
+cd
+ansible --version
