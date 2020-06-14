@@ -10,3 +10,5 @@ mkdir roles
 touch ansible.cfg hosts
 cd
 ansible --version
+useradd ansadmin
+passwd ansadmin
